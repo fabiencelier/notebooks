@@ -1,0 +1,9 @@
+name: atoti-env
+channels:
+  - https://conda.atoti.io
+  - conda-forge
+dependencies:
+  - atoti
+  - openjdk
+  - jupyterlab
+
