@@ -6,4 +6,5 @@ dependencies:
   - atoti
   - openjdk
   - jupyterlab
+  - jupyter-server-proxy
 
