@@ -1,8 +1,21 @@
 <html>
-<body>
-Starting atoti application...
+<body style="background-image: url('atoti.jpeg'); background-repeat: no-repeat;  background-size: cover;">
+  <div>
+    <h2 style="color:white;text-align: center;">
+       Starting atoti application...
+    </h2>
+  </div>
 </body>
 <script>
-  window.location.href = window.location.href.replace("start", "atoti")
+  const redirect = () => {
+     const new_loc = window.location.href.replace("start", "atoti")
+     console.log("Redirecting to " + new_loc)
+     window.location.href = new_loc
+  }
+  const recursivelyRedirect = () => {
+    redirect()
+    setTimeout(recursivelyRedirect, 20000);
+  }
+  setTimeout(recursivelyRedirect, 500);
 </script>
 </html>
