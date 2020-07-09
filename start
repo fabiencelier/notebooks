@@ -1,6 +1,13 @@
 #!/bin/bash
+
+# COnvert to python script
 jupyter nbconvert --to script finance/value-at-risk/main.ipynb
+
+# start the server
 python finance/value-at-risk/main.py &
+
+# wait for the server to be ready
+python wait.py
 
 echo "$@"
 
