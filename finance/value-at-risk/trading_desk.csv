@@ -1,0 +1,41 @@
+book_id,book,trading_desk,sub_business_unit,business_unit
+1,HE01,Hermes,Developed Market,Forex
+2,HE02,Hermes,Developed Market,Forex
+3,HE03,Hermes,Developed Market,Forex
+4,HE04,Hermes,Developed Market,Forex
+5,ZE01,Zeus,Developed Market,Forex
+6,ZE02,Zeus,Developed Market,Forex
+7,ZE03,Zeus,Developed Market,Forex
+8,ZE04,Zeus,Developed Market,Forex
+9,AP01,Apollo,Emerging Market,Forex
+10,AP02,Apollo,Emerging Market,Forex
+11,AP03,Apollo,Emerging Market,Forex
+12,AP04,Apollo,Emerging Market,Forex
+13,AT01,Atlas,Emerging Market,Forex
+14,AT02,Atlas,Emerging Market,Forex
+15,AT03,Atlas,Emerging Market,Forex
+16,AT04,Atlas,Emerging Market,Forex
+17,CH01,Chronos,Frontier Market,Forex
+18,CH02,Chronos,Frontier Market,Forex
+19,CH03,Chronos,Frontier Market,Forex
+20,CH04,Chronos,Frontier Market,Forex
+21,PO01,Poseidon,Frontier Market,Forex
+22,PO02,Poseidon,Frontier Market,Forex
+23,PO03,Poseidon,Frontier Market,Forex
+24,PO04,Poseidon,Frontier Market,Forex
+25,IR01,Iris,Foreign Equity,Equity
+26,IR02,Iris,Foreign Equity,Equity
+27,IR03,Iris,Foreign Equity,Equity
+28,IR04,Iris,Foreign Equity,Equity
+29,HY01,Hypnos,Domestic Equity,Equity
+30,HY02,Hypnos,Domestic Equity,Equity
+31,HY03,Hypnos,Domestic Equity,Equity
+32,HY04,Hypnos,Domestic Equity,Equity
+33,KR01,Kratos,Domestic Equity,Equity
+34,KR02,Kratos,Domestic Equity,Equity
+35,KR03,Kratos,Domestic Equity,Equity
+36,KR04,Kratos,Domestic Equity,Equity
+37,HE01,Hera,Domestic Rates & Credit,Rates & Credit
+38,HE02,Hera,Domestic Rates & Credit,Rates & Credit
+39,HE03,Hera,Domestic Rates & Credit,Rates & Credit
+40,HE04,Hera,Domestic Rates & Credit,Rates & Credit

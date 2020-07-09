@@ -11,4 +11,4 @@ while True:
   except Exception as e:
     print(e)
     print("Waiting for URL, connexion failed")
-  time.sleep(2)
+  time.sleep(1)
