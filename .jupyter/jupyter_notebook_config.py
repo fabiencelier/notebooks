@@ -11,8 +11,8 @@ c.ServerProxy.servers = {
     },
     'port': 9999,
   },
-    'test-server': {
-    'command': ['python3', '-m', 'http.server', '{port}'],
+    'start': {
+    'command': ['python3', '-m', 'http.server', '{port}', '--directory', 'redirect'],
     'absolute_url': False
   }
 }

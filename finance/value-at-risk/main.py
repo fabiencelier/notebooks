@@ -26,6 +26,12 @@ import atoti
 # In[ ]:
 
 
+path = "finance/value-at-risk/"
+
+
+# In[ ]:
+
+
 from atoti.sampling import first_lines
 
 
@@ -53,16 +59,10 @@ session = atoti.create_session(config=config)
 
 
 instruments = session.read_csv(
-    "s3://data.atoti.io/notebooks/var/instruments.csv",
+    path + "instruments.csv",
     keys=["instrument_code"],
     store_name="Instruments",
 )
-
-
-# In[ ]:
-
-
-instruments.head()
 
 
 # The analytics store gives more information on each instrument, more notably:
@@ -73,18 +73,12 @@ instruments.head()
 
 
 analytics = session.read_csv(
-    "s3://data.atoti.io/notebooks/var/instruments_pricing_vol_depth_272.csv",
+    path + "instruments_pricing_vol_depth_272.csv",
     keys=["instrument_code"],
     store_name="Instruments Analytics",
     sep="|",
     array_sep=";",
 )
-
-
-# In[ ]:
-
-
-analytics.head()
 
 
 # In[ ]:
@@ -105,17 +99,11 @@ positions_store_types = {
 
 
 positions = session.read_csv(
-    "s3://data.atoti.io/notebooks/var/positions.csv",
+    path + "positions.csv",
     keys=["instrument_code", "book_id"],
     store_name="Positions",
     types=positions_store_types,
 )
-
-
-# In[ ]:
-
-
-positions.head()
 
 
 # ### Data model and cube
@@ -158,12 +146,6 @@ cube
 
 # A simple command lets you run atoti's UI directly in the notebook. This is pretty convenient to explore the data you just loaded or make sure the measures defined produce the correct results.
 
-# In[ ]:
-
-
-cube.visualize()
-
-
 # #### Computing the PnL of the previous day
 
 # In[ ]:
@@ -184,30 +166,6 @@ m["PnL"] = atoti.agg.sum(
 # ### Looking at the PnL in various ways
 # Run the following cells to see the atoti visualizations
 
-# In[ ]:
-
-
-cube.visualize(name="PnL Pivot Table")
-
-
-# In[ ]:
-
-
-cube.visualize("PnL by Option Type Chart")
-
-
-# ### Collaboration tools
-# All the tables/charts created in the notebook can be published and made available in atoti's UI, a user friendly interface where anybody can create dashboards, share them, and drill down the data.
-# 
-# atoti's UI can be reached with a link using command `session.url`  
-# Run the cell below to have a look at a dashboard we have prepared using the above chart and pivot table.
-
-# In[ ]:
-
-
-session.url + "/#/dashboard/ee8"
-
-
 # ### Customizing hierarchies
 # 
 # In large organizations, books usually belong to business units that are made up of smaller sub-business units and different trading desks.  
@@ -219,7 +177,7 @@ session.url + "/#/dashboard/ee8"
 
 
 trading_desks = session.read_csv(
-    "s3://data.atoti.io/notebooks/var/trading_desk.csv",
+    path + "trading_desk.csv",
     keys=["book_id"],
     store_name="Trading Desk",
 )
@@ -275,12 +233,6 @@ m["Confidence Level"] = 0.95
 m["VaR"] = atoti.array.quantile(m["Position Vector"], m["Confidence Level"])
 
 
-# In[ ]:
-
-
-cube.visualize()
-
-
 # The results above show that with a 95% confidence level, we are sure that the maximum loss would be 2,757,370.12 for Forex.
 # 
 # 95% is an arbitrary value, what if the extreme cases are ten times worse than what we have? Or what if chosing a lower confidence level would tremendously decrease the VaR?
@@ -302,18 +254,6 @@ confidence_levels["Worst"] = 1.0
 
 
 # Once the simulation is setup, we can access its different values using the new `Confidence level` hierarchy that has automatically been created
-
-# In[ ]:
-
-
-cube.visualize("VaR per scenario")
-
-
-# In[ ]:
-
-
-cube.visualize("VaR per scenario in a chart")
-
 
 # ### Marginal VaR
 # 
@@ -344,12 +284,6 @@ m["Marginal VaR"] = m["Parent VaR"] - m["Parent VaR Ex"]
 
 # That's it, our marginal VaR is computed, let's have a look at where we could reduce the VaR the most now.
 
-# In[ ]:
-
-
-cube.visualize()
-
-
 # ## PnL Models Comparison
 # 
 # The VaR calculation is heavily based on the PnL vectors that depend on the results of our instruments pricers, and the history that we have.  
@@ -363,7 +297,7 @@ cube.visualize()
 
 
 new_analytics_file = (
-    "s3://data.atoti.io/notebooks/var/instruments_pricing_vol_depth_150.csv"
+    path + "instruments_pricing_vol_depth_150.csv"
 )
 analytics.scenarios["Model short Volatility"].load_csv(
     new_analytics_file, sep="|", array_sep=";"
@@ -373,27 +307,9 @@ analytics.scenarios["Model short Volatility"].load_csv(
 # And that's it, there is no need to re-load any of the previous files, re-define measures or perform batch computations. Everything we have previously defined is available in both our previous and this new scenario.  
 # Let's have a look at it.
 
-# In[ ]:
-
-
-cube.visualize("Pivot table comparison Model Short Volatility")
-
-
-# In[ ]:
-
-
-cube.visualize("VAR comparison Model Short Volatility")
-
-
 # ## Combined Scenarios
 # 
 # We may also combine scenarios together and answer questions such as "What would be the VaR and Marginal VaR for the Short Volatility model combined with the 95% and 98% confidence level scenarios?"
-
-# In[ ]:
-
-
-cube.visualize("Combined Scenarios")
-
 
 # In[ ]:
 
@@ -410,7 +326,11 @@ session.load_all_data()
 # In[ ]:
 
 
-import time
-while True:
-    time.sleep(5)
+session.wait()
+
+
+# In[ ]:
+
+
+
 
