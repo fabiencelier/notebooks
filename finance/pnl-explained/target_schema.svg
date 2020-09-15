@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="694px" height="698px" viewBox="0.00 0.00 694.00 698.00">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 694)">
+<title>Position_Sensitivities schema</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-694 690,-694 690,4 -4,4"/>
+<!-- Position Sensitivities Store -->
+<g id="node1" class="node">
+<title>Position Sensitivities Store</title>
+<text text-anchor="start" x="18.5" y="-366.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">Position Sensitivities Store</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="9,-333 9,-357 42,-357 42,-333 9,-333"/>
+<text text-anchor="start" x="14" y="-342.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="42,-333 42,-357 152,-357 152,-333 42,-333"/>
+<text text-anchor="start" x="47" y="-341.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book_id</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="152,-333 152,-357 203,-357 203,-333 152,-333"/>
+<text text-anchor="start" x="183" y="-342.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">int</text>
+<polygon fill="#ffffff" stroke="transparent" points="9,-309 9,-333 42,-333 42,-309 9,-309"/>
+<text text-anchor="start" x="14" y="-318.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#ffffff" stroke="transparent" points="42,-309 42,-333 152,-333 152,-309 42,-309"/>
+<text text-anchor="start" x="47" y="-317.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">instrument_code</text>
+<polygon fill="#ffffff" stroke="transparent" points="152,-309 152,-333 203,-333 203,-309 152,-309"/>
+<text text-anchor="start" x="162" y="-318.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="9,-285 9,-309 42,-309 42,-285 9,-285"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="42,-285 42,-309 152,-309 152,-285 42,-285"/>
+<text text-anchor="start" x="47" y="-293.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">notional</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="152,-285 152,-309 203,-309 203,-285 152,-285"/>
+<text text-anchor="start" x="157" y="-294.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="#ffffff" stroke="transparent" points="9,-261 9,-285 42,-285 42,-261 9,-261"/>
+<text text-anchor="start" x="14" y="-270.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#ffffff" stroke="transparent" points="42,-261 42,-285 152,-285 152,-261 42,-261"/>
+<text text-anchor="start" x="47" y="-269.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">currency</text>
+<polygon fill="#ffffff" stroke="transparent" points="152,-261 152,-285 203,-285 203,-261 152,-261"/>
+<text text-anchor="start" x="162" y="-270.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="9,-237 9,-261 42,-261 42,-237 9,-237"/>
+<text text-anchor="start" x="14" y="-246.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="42,-237 42,-261 152,-261 152,-237 42,-237"/>
+<text text-anchor="start" x="47" y="-245.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">curve</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="152,-237 152,-261 203,-261 203,-237 152,-237"/>
+<text text-anchor="start" x="162" y="-246.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="9,-213 9,-237 42,-237 42,-213 9,-213"/>
+<text text-anchor="start" x="14" y="-222.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#ffffff" stroke="transparent" points="42,-213 42,-237 152,-237 152,-213 42,-213"/>
+<text text-anchor="start" x="47" y="-221.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">tenor</text>
+<polygon fill="#ffffff" stroke="transparent" points="152,-213 152,-237 203,-237 203,-213 152,-213"/>
+<text text-anchor="start" x="162" y="-222.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="9,-189 9,-213 42,-213 42,-189 9,-189"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="42,-189 42,-213 152,-213 152,-189 42,-189"/>
+<text text-anchor="start" x="47" y="-197.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">sensi</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="152,-189 152,-213 203,-213 203,-189 152,-189"/>
+<text text-anchor="start" x="157" y="-198.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="none" stroke="black" points="8,-188 8,-382 204,-382 204,-188 8,-188"/>
+</g>
+<!-- Trading Desk -->
+<g id="node2" class="node">
+<title>Trading Desk</title>
+<text text-anchor="start" x="534" y="-670.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">Trading Desk</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="476.5,-637 476.5,-661 509.5,-661 509.5,-637 476.5,-637"/>
+<text text-anchor="start" x="481.5" y="-646.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="509.5,-637 509.5,-661 631.5,-661 631.5,-637 509.5,-637"/>
+<text text-anchor="start" x="514.5" y="-645.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book_id</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="631.5,-637 631.5,-661 677.5,-661 677.5,-637 631.5,-637"/>
+<text text-anchor="start" x="657.5" y="-646.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">int</text>
+<polygon fill="#ffffff" stroke="transparent" points="476.5,-613 476.5,-637 509.5,-637 509.5,-613 476.5,-613"/>
+<polygon fill="#ffffff" stroke="transparent" points="509.5,-613 509.5,-637 631.5,-637 631.5,-613 509.5,-613"/>
+<text text-anchor="start" x="514.5" y="-621.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book</text>
+<polygon fill="#ffffff" stroke="transparent" points="631.5,-613 631.5,-637 677.5,-637 677.5,-613 631.5,-613"/>
+<text text-anchor="start" x="636.5" y="-622.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="476.5,-589 476.5,-613 509.5,-613 509.5,-589 476.5,-589"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="509.5,-589 509.5,-613 631.5,-613 631.5,-589 509.5,-589"/>
+<text text-anchor="start" x="514.5" y="-597.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">trading_desk</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="631.5,-589 631.5,-613 677.5,-613 677.5,-589 631.5,-589"/>
+<text text-anchor="start" x="636.5" y="-598.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="476.5,-565 476.5,-589 509.5,-589 509.5,-565 476.5,-565"/>
+<polygon fill="#ffffff" stroke="transparent" points="509.5,-565 509.5,-589 631.5,-589 631.5,-565 509.5,-565"/>
+<text text-anchor="start" x="514.5" y="-573.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">sub_business_unit</text>
+<polygon fill="#ffffff" stroke="transparent" points="631.5,-565 631.5,-589 677.5,-589 677.5,-565 631.5,-565"/>
+<text text-anchor="start" x="636.5" y="-574.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="476.5,-541 476.5,-565 509.5,-565 509.5,-541 476.5,-541"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="509.5,-541 509.5,-565 631.5,-565 631.5,-541 509.5,-541"/>
+<text text-anchor="start" x="514.5" y="-549.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">business_unit</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="631.5,-541 631.5,-565 677.5,-565 677.5,-541 631.5,-541"/>
+<text text-anchor="start" x="636.5" y="-550.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="476.5,-517 476.5,-541 509.5,-541 509.5,-517 476.5,-517"/>
+<polygon fill="#ffffff" stroke="transparent" points="509.5,-517 509.5,-541 631.5,-541 631.5,-517 509.5,-517"/>
+<text text-anchor="start" x="514.5" y="-525.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">folio_id</text>
+<polygon fill="#ffffff" stroke="transparent" points="631.5,-517 631.5,-541 677.5,-541 677.5,-517 631.5,-517"/>
+<text text-anchor="start" x="657.5" y="-526.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">int</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="476.5,-493 476.5,-517 509.5,-517 509.5,-493 476.5,-493"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="509.5,-493 509.5,-517 631.5,-517 631.5,-493 509.5,-493"/>
+<text text-anchor="start" x="514.5" y="-501.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">portfolio</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="631.5,-493 631.5,-517 677.5,-517 677.5,-493 631.5,-493"/>
+<text text-anchor="start" x="636.5" y="-502.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="476.5,-469 476.5,-493 509.5,-493 509.5,-469 476.5,-469"/>
+<polygon fill="#ffffff" stroke="transparent" points="509.5,-469 509.5,-493 631.5,-493 631.5,-469 509.5,-469"/>
+<text text-anchor="start" x="514.5" y="-477.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">fund</text>
+<polygon fill="#ffffff" stroke="transparent" points="631.5,-469 631.5,-493 677.5,-493 677.5,-469 631.5,-469"/>
+<text text-anchor="start" x="636.5" y="-478.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="476.5,-445 476.5,-469 509.5,-469 509.5,-445 476.5,-445"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="509.5,-445 509.5,-469 631.5,-469 631.5,-445 509.5,-445"/>
+<text text-anchor="start" x="514.5" y="-453.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">sub_asset_class</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="631.5,-445 631.5,-469 677.5,-469 677.5,-445 631.5,-445"/>
+<text text-anchor="start" x="636.5" y="-454.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="476.5,-421 476.5,-445 509.5,-445 509.5,-421 476.5,-421"/>
+<polygon fill="#ffffff" stroke="transparent" points="509.5,-421 509.5,-445 631.5,-445 631.5,-421 509.5,-421"/>
+<text text-anchor="start" x="514.5" y="-429.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">asset_class</text>
+<polygon fill="#ffffff" stroke="transparent" points="631.5,-421 631.5,-445 677.5,-445 677.5,-421 631.5,-421"/>
+<text text-anchor="start" x="636.5" y="-430.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="none" stroke="black" points="475,-420 475,-686 678,-686 678,-420 475,-420"/>
+</g>
+<!-- Position Sensitivities Store&#45;&gt;Trading Desk -->
+<g id="edge3" class="edge">
+<title>Position Sensitivities Store-&gt;Trading Desk</title>
+<path fill="none" stroke="black" d="M212.14,-345.14C284.99,-386.82 382.06,-442.35 457.55,-485.53"/>
+<polygon fill="black" stroke="black" points="456.23,-488.8 466.64,-490.73 459.7,-482.73 456.23,-488.8"/>
+<text text-anchor="middle" x="339.5" y="-476.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book_id → book_id</text>
+</g>
+<!-- Position Store -->
+<g id="node3" class="node">
+<title>Position Store</title>
+<text text-anchor="start" x="530.5" y="-378.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">Position Store</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="479.5,-345 479.5,-369 512.5,-369 512.5,-345 479.5,-345"/>
+<text text-anchor="start" x="484.5" y="-354.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="512.5,-345 512.5,-369 622.5,-369 622.5,-345 512.5,-345"/>
+<text text-anchor="start" x="517.5" y="-353.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book_id</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="622.5,-345 622.5,-369 673.5,-369 673.5,-345 622.5,-345"/>
+<text text-anchor="start" x="653.5" y="-354.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">int</text>
+<polygon fill="#ffffff" stroke="transparent" points="479.5,-321 479.5,-345 512.5,-345 512.5,-321 479.5,-321"/>
+<text text-anchor="start" x="484.5" y="-330.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#ffffff" stroke="transparent" points="512.5,-321 512.5,-345 622.5,-345 622.5,-321 512.5,-321"/>
+<text text-anchor="start" x="517.5" y="-329.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">instrument_code</text>
+<polygon fill="#ffffff" stroke="transparent" points="622.5,-321 622.5,-345 673.5,-345 673.5,-321 622.5,-321"/>
+<text text-anchor="start" x="632.5" y="-330.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="479.5,-297 479.5,-321 512.5,-321 512.5,-297 479.5,-297"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="512.5,-297 512.5,-321 622.5,-321 622.5,-297 512.5,-297"/>
+<text text-anchor="start" x="517.5" y="-305.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">maturity_date</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="622.5,-297 622.5,-321 673.5,-321 673.5,-297 622.5,-297"/>
+<text text-anchor="start" x="653.5" y="-306.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">int</text>
+<polygon fill="#ffffff" stroke="transparent" points="479.5,-273 479.5,-297 512.5,-297 512.5,-273 479.5,-273"/>
+<polygon fill="#ffffff" stroke="transparent" points="512.5,-273 512.5,-297 622.5,-297 622.5,-273 512.5,-273"/>
+<text text-anchor="start" x="517.5" y="-281.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">coupon_rate</text>
+<polygon fill="#ffffff" stroke="transparent" points="622.5,-273 622.5,-297 673.5,-297 673.5,-273 622.5,-273"/>
+<text text-anchor="start" x="627.5" y="-282.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="479.5,-249 479.5,-273 512.5,-273 512.5,-249 479.5,-249"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="512.5,-249 512.5,-273 622.5,-273 622.5,-249 512.5,-249"/>
+<text text-anchor="start" x="517.5" y="-257.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">nominal</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="622.5,-249 622.5,-273 673.5,-273 673.5,-249 622.5,-249"/>
+<text text-anchor="start" x="627.5" y="-258.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="#ffffff" stroke="transparent" points="479.5,-225 479.5,-249 512.5,-249 512.5,-225 479.5,-225"/>
+<polygon fill="#ffffff" stroke="transparent" points="512.5,-225 512.5,-249 622.5,-249 622.5,-225 512.5,-225"/>
+<text text-anchor="start" x="517.5" y="-233.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">currency</text>
+<polygon fill="#ffffff" stroke="transparent" points="622.5,-225 622.5,-249 673.5,-249 673.5,-225 622.5,-225"/>
+<text text-anchor="start" x="632.5" y="-234.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="479.5,-201 479.5,-225 512.5,-225 512.5,-201 479.5,-201"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="512.5,-201 512.5,-225 622.5,-225 622.5,-201 512.5,-201"/>
+<text text-anchor="start" x="517.5" y="-209.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">curve</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="622.5,-201 622.5,-225 673.5,-225 673.5,-201 622.5,-201"/>
+<text text-anchor="start" x="632.5" y="-210.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="479.5,-177 479.5,-201 512.5,-201 512.5,-177 479.5,-177"/>
+<polygon fill="#ffffff" stroke="transparent" points="512.5,-177 512.5,-201 622.5,-201 622.5,-177 512.5,-177"/>
+<text text-anchor="start" x="517.5" y="-185.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">issuer_country</text>
+<polygon fill="#ffffff" stroke="transparent" points="622.5,-177 622.5,-201 673.5,-201 673.5,-177 622.5,-177"/>
+<text text-anchor="start" x="632.5" y="-186.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="none" stroke="black" points="478.5,-176 478.5,-394 674.5,-394 674.5,-176 478.5,-176"/>
+</g>
+<!-- Position Sensitivities Store&#45;&gt;Position Store -->
+<g id="edge2" class="edge">
+<title>Position Sensitivities Store-&gt;Position Store</title>
+<path fill="none" stroke="black" d="M212.14,-285C285.85,-285 384.37,-285 460.23,-285"/>
+<polygon fill="black" stroke="black" points="460.31,-288.5 470.31,-285 460.31,-281.5 460.31,-288.5"/>
+<text text-anchor="middle" x="339.5" y="-302.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">instrument_code → instrument_code</text>
+<text text-anchor="middle" x="339.5" y="-288.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">book_id → book_id</text>
+</g>
+<!-- Market Data -->
+<g id="node4" class="node">
+<title>Market Data</title>
+<text text-anchor="start" x="539" y="-134.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">Market Data</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="492.5,-101 492.5,-125 525.5,-125 525.5,-101 492.5,-101"/>
+<text text-anchor="start" x="497.5" y="-110.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="525.5,-101 525.5,-125 610.5,-125 610.5,-101 525.5,-101"/>
+<text text-anchor="start" x="530.5" y="-109.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">currency</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="610.5,-101 610.5,-125 661.5,-125 661.5,-101 610.5,-101"/>
+<text text-anchor="start" x="620.5" y="-110.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="492.5,-77 492.5,-101 525.5,-101 525.5,-77 492.5,-77"/>
+<text text-anchor="start" x="497.5" y="-86.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#ffffff" stroke="transparent" points="525.5,-77 525.5,-101 610.5,-101 610.5,-77 525.5,-77"/>
+<text text-anchor="start" x="530.5" y="-85.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">curve</text>
+<polygon fill="#ffffff" stroke="transparent" points="610.5,-77 610.5,-101 661.5,-101 661.5,-77 610.5,-77"/>
+<text text-anchor="start" x="620.5" y="-86.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="492.5,-53 492.5,-77 525.5,-77 525.5,-53 492.5,-53"/>
+<text text-anchor="start" x="497.5" y="-62.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-weight="bold" font-size="13.00">key</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="525.5,-53 525.5,-77 610.5,-77 610.5,-53 525.5,-53"/>
+<text text-anchor="start" x="530.5" y="-61.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">tenor</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="610.5,-53 610.5,-77 661.5,-77 661.5,-53 610.5,-53"/>
+<text text-anchor="start" x="620.5" y="-62.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">String</text>
+<polygon fill="#ffffff" stroke="transparent" points="492.5,-29 492.5,-53 525.5,-53 525.5,-29 492.5,-29"/>
+<polygon fill="#ffffff" stroke="transparent" points="525.5,-29 525.5,-53 610.5,-53 610.5,-29 525.5,-29"/>
+<text text-anchor="start" x="530.5" y="-37.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">start_of_day</text>
+<polygon fill="#ffffff" stroke="transparent" points="610.5,-29 610.5,-53 661.5,-53 661.5,-29 610.5,-29"/>
+<text text-anchor="start" x="615.5" y="-38.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="492.5,-5 492.5,-29 525.5,-29 525.5,-5 492.5,-5"/>
+<polygon fill="#f5f5f5" stroke="transparent" points="525.5,-5 525.5,-29 610.5,-29 610.5,-5 525.5,-5"/>
+<text text-anchor="start" x="530.5" y="-13.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">last</text>
+<polygon fill="#f5f5f5" stroke="transparent" points="610.5,-5 610.5,-29 661.5,-29 661.5,-5 610.5,-5"/>
+<text text-anchor="start" x="615.5" y="-14.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-style="italic" font-size="13.00">double</text>
+<polygon fill="none" stroke="black" points="491,-4 491,-150 662,-150 662,-4 491,-4"/>
+</g>
+<!-- Position Sensitivities Store&#45;&gt;Market Data -->
+<g id="edge1" class="edge">
+<title>Position Sensitivities Store-&gt;Market Data</title>
+<path fill="none" stroke="black" d="M212.14,-238.32C290.3,-203.62 396.36,-156.53 473.71,-122.19"/>
+<polygon fill="black" stroke="black" points="475.27,-125.33 482.99,-118.07 472.43,-118.93 475.27,-125.33"/>
+<text text-anchor="middle" x="339.5" y="-260.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">tenor → tenor</text>
+<text text-anchor="middle" x="339.5" y="-246.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">curve → curve</text>
+<text text-anchor="middle" x="339.5" y="-232.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="13.00">currency → currency</text>
+</g>
+</g>
+</svg>
